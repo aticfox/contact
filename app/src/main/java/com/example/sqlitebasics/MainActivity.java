@@ -104,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
         cv.put(MyHelper.COL_PHONE_NUMBER, "333-333-3333");
         mDatabase.insert(MyHelper.TABLE_NAME, null, cv);
 //testttt
+        ///test12
         Cursor cursor = readAllData();
         mAdapter.changeCursor(cursor);
     }
